@@ -13,7 +13,7 @@ Es decir, en el ejemplo anterior el formato imprimiría lo siguiente para los ge
 var text='';
 var i=0,j=0;
 var costo=0;
-var condicion='pares';
+var condicion='impares';
 while (i < 4){
     i++;
     switch(condicion){
@@ -47,7 +47,7 @@ for(j=i+1;j<=19;j++){
         case 'pares':
             if(j%2==0){
                 costo+=124;
-                console.log('Generador #'+j+' está prendido, añadiendo 62 MW para un total de '+costo+' MW.');
+                console.log('Generador #'+j+' está prendido, añadiendo 124 MW para un total de '+costo+' MW.');
             }
             else {
                 console.log('Generador #'+j+' está apagado.');
@@ -56,7 +56,7 @@ for(j=i+1;j<=19;j++){
         case 'impares':
             if(j%2!=0){
                 costo+=124;
-                console.log('Generador #'+j+' está prendido, añadiendo 62 MW para un total de '+costo+' MW.');
+                console.log('Generador #'+j+' está prendido, añadiendo 124 MW para un total de '+costo+' MW.');
             }
             else {
                 console.log('Generador #'+j+' está apagado.');
@@ -64,7 +64,7 @@ for(j=i+1;j<=19;j++){
             break;
         case 'todos':
             costo+=124;
-            console.log('Generador #'+j+' está prendido, añadiendo 62 MW para un total de '+costo+' MW.');
+            console.log('Generador #'+j+' está prendido, añadiendo 124 MW para un total de '+costo+' MW.');
             break;
     }
 
