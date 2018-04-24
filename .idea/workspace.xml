@@ -44,11 +44,8 @@
       <file leaf-file-name="Ejercicio 2.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Deber 04/Ejercicio 2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="66" column="70" selection-start-line="66" selection-start-column="70" selection-end-line="66" selection-end-column="70" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -151,16 +148,15 @@
       <updated>1524070883847</updated>
       <workItem from="1524070885007" duration="69000" />
       <workItem from="1524070966309" duration="3800000" />
-      <workItem from="1524546155852" duration="5688000" />
+      <workItem from="1524546155852" duration="5765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9557000" />
+    <option name="totallyTimeSpent" value="9634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22794117" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -256,11 +252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Deber 04/Ejercicio 2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="66" column="70" selection-start-line="66" selection-start-column="70" selection-end-line="66" selection-end-column="70" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
