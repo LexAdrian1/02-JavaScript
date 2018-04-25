@@ -1,5 +1,4 @@
 console.log('Hola Mundo');
-
 var nombre = 'Alexis';
 var edad = 22;
 var peso = 300.5;
@@ -52,6 +51,5 @@ var potenciaDeDosDeUnNumeroDos = function (numero) {
 };
 console.log(potenciaDeDosDeUnNumeroDos(7,2,3,4));
 console.log(potenciaDeDosDeUnNumeroDos(4,2,3,4));
-
 console.log(usuario.imprimir());
 console.log(arreglo);
