@@ -1,7 +1,8 @@
-
 var i=0,j=0;
 var costo=0;
-var condicion='impares';
+// pares. impares, todos
+var condicion='pares';
+
 while (i < 4){
     i++;
     switch(condicion){
@@ -55,6 +56,4 @@ for(j=i+1;j<=19;j++){
             console.log('Generador #'+j+' está prendido, añadiendo 124 MW para un total de '+costo+' MW.');
             break;
     }
-
-
 }
