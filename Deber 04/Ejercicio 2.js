@@ -1,7 +1,7 @@
 var i=0,j=0;
 var costo=0;
 // pares. impares, todos
-var condicion='pares';
+var condicion='todos';
 
 while (i < 4){
     i++;
