@@ -9,4 +9,4 @@ function validarNumeroDeStringsEnArreglo(arreglo) {
     }
     return (count);
 }
-console.log(validarNumeroDeStringsEnArreglo(arreglo));
+console.log('Total de Strings: '+validarNumeroDeStringsEnArreglo(arreglo));
