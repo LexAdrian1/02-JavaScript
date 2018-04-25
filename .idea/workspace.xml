@@ -35,8 +35,8 @@
       <file leaf-file-name="clases.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02 TypeScript/clases.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="949">
+              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -146,12 +146,12 @@
       <workItem from="1524070966309" duration="3800000" />
       <workItem from="1524546155852" duration="5765000" />
       <workItem from="1524617973861" duration="10290000" />
-      <workItem from="1524672875620" duration="1350000" />
+      <workItem from="1524672875620" duration="3833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21274000" />
+    <option name="totallyTimeSpent" value="23757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="0" />
@@ -333,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02 TypeScript/clases.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="949">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
         </state>
       </provider>
     </entry>
