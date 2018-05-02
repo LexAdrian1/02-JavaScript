@@ -42,19 +42,28 @@ var resultadoForEach = arregloNumero.forEach(function (valorActual, indiceActual
 });
 console.log(resultadoForEach);
 console.log(sumaTotal);
-var resultadoSumaconReduce = arregloNumero.
-    reduce(function (valorAcumuladoActual, valorActualArreglo) {
+var resultadoSumaconReduce = arregloNumero.reduce(function (valorAcumuladoActual, valorActualArreglo) {
     console.log('ValorAcumuladoActual', valorAcumuladoActual);
     console.log('ValorActualArreglo', valorActualArreglo);
     return valorAcumuladoActual - valorActualArreglo;
 }, 20);
 console.log(resultadoSumaconReduce);
-var resultadoEdadUsuarios = arregloUsuarios.reduce(function (acumuladoEdad, usuario) {
-    return acumuladoEdad + usuario.edad;
-}, 0);
+var resultadoEdadUsuarios = arregloUsuarios.reduce(function (acumuladoEdad, usuario) { return acumuladoEdad + usuario.edad; }, 0);
 console.log(resultadoEdadUsuarios);
 var nuevoArregloUsuarios = arregloUsuarios.map(function (usuario) {
-    usuario.deuda = 0;
+    usuario.becado = false;
     return usuario;
+}).map(function (usuario) {
+    usuario.deuda = calcularDeuda(usuario.edad);
+    return usuario;
+}).filter(function (usuario) {
+    return usuario.deuda < 50; //true, false
+}).some(//every AND some OR = boolean
+function (usuario) {
+    return usuario.deuda < 18; //true, false
 });
+function calcularDeuda(edadUsuario) {
+    var totalEdad = arregloUsuarios.reduce(function (total, usuario) { return total + usuario.edad; }, 0);
+    return totalEdad * (edadUsuario / 100);
+}
 console.log('nuevoArregloUsuarios', nuevoArregloUsuarios);

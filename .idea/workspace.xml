@@ -44,8 +44,8 @@
       <file leaf-file-name="operadores.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02 TypeScript/operadores.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="83" column="57" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
+            <state relative-caret-position="619">
+              <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -158,15 +158,16 @@
       <workItem from="1524617973861" duration="10290000" />
       <workItem from="1524672875620" duration="3833000" />
       <workItem from="1524679632046" duration="170000" />
-      <workItem from="1525277808760" duration="2693000" />
+      <workItem from="1525277808760" duration="4429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26620000" />
+    <option name="totallyTimeSpent" value="28356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22773437" />
@@ -395,8 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02 TypeScript/operadores.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="83" column="57" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
+        <state relative-caret-position="619">
+          <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
         </state>
       </provider>
     </entry>
